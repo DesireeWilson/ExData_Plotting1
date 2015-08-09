@@ -28,7 +28,7 @@ par(mfrow=c(2,2))
 
 ##first one:
 plot(as.numeric(thedata2_timesort$Global_active_power, na.rm=TRUE), ylab=c('Global Active Power (kilowatts)'), xaxt='n', xlab='',type='l')
-axis(1, las=2, at=c(midnightidx,nrow(thedata2_timesort)), label=c('Thursday','Friday','Saturday'))
+axis(1, las=1, at=c(midnightidx,nrow(thedata2_timesort)), label=c('Thu','Fri','Sat'))
 
 
 ##second one:
